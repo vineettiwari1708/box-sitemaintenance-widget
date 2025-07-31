@@ -50,7 +50,7 @@
         setTimeout(() => {
           const o = document.getElementById("maintenance-overlay");
           if (o) o.remove();
-        }, 2 * 60 * 60 * 1000); // 2 hours
+        },  5000); // 2 hours
         return;
       }
 
